@@ -1,0 +1,12 @@
+<svg className="main__purple-light-mobile" width="320" height="445" viewBox="0 0 320 445" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.5" filter="url(#filter0_f_0_89)">
+<circle cx="387.5" cy="236.5" r="129.5" fill="#833AB4"/>
+</g>
+<defs>
+<filter id="filter0_f_0_89" x="-134" y="-285" width="1043" height="1043" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="196" result="effect1_foregroundBlur_0_89"/>
+</filter>
+</defs>
+</svg>

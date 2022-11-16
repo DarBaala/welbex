@@ -6,6 +6,7 @@
   justify-content: space-between;
   @media (max-width: 768px) {
     padding: 20px 0;
+    z-index: 33;
   }
   &__logo {
     width: 140px;

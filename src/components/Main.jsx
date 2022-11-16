@@ -1,8 +1,8 @@
 const Main = () => {
   return (
-    <div className="main">
+    <main className="main">
       <div className="container">
-        <main className="main__wrapper">
+        <div className="main__wrapper">
           <div className="main__slogan">
             <h1>
               Зарабатывайте больше <span>с WELBEX</span>
@@ -75,9 +75,11 @@ const Main = () => {
               alt="red ball"
             />
           </div>
-        </main>
+        </div>
+        
       </div>
-    </div>
+      
+    </main>
   );
 };
 

@@ -1,21 +1,17 @@
 .main {
   @media (max-width: 768px) {
-    background: radial-gradient(
-      238.53% 189.02% at 3.2% 3.49%,
-      rgba(255, 246, 233, 0.1) 0%,
-      rgba(26, 29, 35, 0.1) 26.62%,
-      rgba(26, 29, 35, 0.1) 52.1%,
-      rgba(26, 29, 35, 0.01) 70.17%,
-      rgba(26, 29, 35, 0) 100%
-    );
-    backdrop-filter: blur(7.5px);
+    background: url("../../../public/img/bg.png") no-repeat;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
   }
-
   &__wrapper {
     display: flex;
     justify-content: space-between;
     @media (max-width: 768px) {
       flex-direction: column;
+      position: relative;
     }
   }
   &__slogan {
@@ -106,6 +102,7 @@
         -webkit-text-fill-color: transparent;
         background-clip: text;
         text-transform: lowercase;
+        letter-spacing: 0px;
       }
     }
     @media (max-width: 768px) {
@@ -121,6 +118,7 @@
     padding-top: 17px;
     @media (max-width: 768px) {
       padding-top: 0;
+      align-items: stretch;
     }
   }
   &__layout {
@@ -139,11 +137,11 @@
     display: none;
     @media (max-width: 768px) {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: fit-content(120px) 1fr;
       grid-template-rows: repeat(2, 1fr);
-      grid-column-gap: 0px;
       grid-row-gap: 14px;
-      margin-bottom: 59px;
+      grid-column-gap: 7px;
+      margin-bottom: 52px;
       div {
         display: flex;
         align-items: center;
@@ -153,7 +151,7 @@
           font-weight: 400;
           font-size: 13px;
           line-height: 16px;
-          letter-spacing: 0.05em;
+          letter-spacing: 1px;
           text-transform: uppercase;
         }
         img {
@@ -175,7 +173,7 @@
       font-weight: 500;
       font-size: 18px;
       line-height: 22px;
-      letter-spacing: 0.05em;
+      letter-spacing: 1px;
       text-transform: uppercase;
       color: #e4e5ea;
       margin-bottom: 6px;

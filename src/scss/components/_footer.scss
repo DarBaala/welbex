@@ -4,7 +4,6 @@
   z-index: 2;
   @media (max-width: 768px) {
     padding: 45px 0 60px;
-    background-image: image("/public/img/background-mobile.jpg");
   }
   &__wrapper {
     display: flex;
@@ -52,7 +51,7 @@
   &__menu-wrapper {
     display: flex;
     @media (max-width: 768px) {
-      margin-bottom: 30px;
+      margin-bottom: 27px;
       justify-content: space-between;
     }
   }
@@ -89,6 +88,7 @@
     flex-direction: column;
     @media (max-width: 768px) {
       max-width: 111px;
+      margin-right: 30px;
     }
     a {
       @media (max-width: 768px) {
@@ -176,7 +176,7 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
-    letter-spacing: 0.05em;
+    letter-spacing: 1px;
     text-transform: uppercase;
     color: #656566;
     @media (max-width: 768px) {
@@ -185,7 +185,7 @@
       font-weight: 700;
       font-size: 14px;
       line-height: 17px;
-      letter-spacing: 0.05em;
+      letter-spacing: -1px;
       text-transform: uppercase;
     }
   }
@@ -204,9 +204,10 @@
     color: #e4e5ea;
     a {
       text-decoration-line: underline;
-      letter-spacing: 0.5px;
+      letter-spacing: 1px;
     }
     @media (max-width: 768px) {
+      bottom: 4px;
       text-align: left;
       left: 0;
     }

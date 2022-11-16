@@ -49,8 +49,8 @@ const Header = () => {
           <a href="/">
             <img src="img/telegram-icon.svg" alt="Icon: Telegram" />
           </a>
-          <a href="tel:+75555555555">
-            <img src="img/phone-icon.svg" alt="Icon: Phone" />
+          <a href="/">
+            <img src="img/viber-icon.svg" alt="Icon: Viber" />
           </a>
           <a href="/">
             <img src="img/whatsapp-icon.svg" alt="Icon: WhatsApp" />
