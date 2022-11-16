@@ -1,0 +1,132 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  &__slogan {
+    position: relative;
+    h1 {
+      z-index: 2;
+      width: 362px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 58px;
+      color: #e4e5ea;
+      margin-bottom: 30px;
+      span {
+        z-index: 2;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 58px;
+        background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%),
+          #e4e5ea;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+    }
+    p {
+      z-index: 2;
+      width: 275px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #e4e5ea;
+    }
+  }
+  &__title {
+    width: 291px;
+    text-align: right;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #e4e5ea;
+    margin-bottom: 40px;
+    span {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: right;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  &__advice {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+  }
+  &__wrapper {
+    width: 330px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-bottom: 60px;
+  }
+  &__widgets {
+    width: 165px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+    h3 {
+      text-align: right;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #e4e5ea;
+      margin-bottom: 6px;
+    }
+    p {
+      text-align: right;
+      width: 135px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+  &__button {
+    background: #4077f3;
+    border: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #e4e5ea;
+    padding: 21px 34px;
+    cursor: pointer;
+  }
+  &__red-ball {
+    position: absolute;
+    bottom: 0;
+    left: -70px;
+  }
+  &__red-light {
+    position: absolute;
+    z-index: 1;
+    top: -270px;
+    right: -30px;
+  }
+}

@@ -1,0 +1,97 @@
+.footer {
+  padding: 124px 0 88px;
+  position: relative;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__company {
+    text-align: left;
+  }
+  &__company-items {
+    display: flex;
+    flex-direction: column;
+    a {
+      margin-bottom: 10px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #e4e5ea;
+    }
+  }
+  &__menu {
+    text-align: left;
+  }
+  &__menu-wrapper {
+    display: flex;
+  }
+  &__menu-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 52px;
+    a {
+      margin-bottom: 10px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  &__menu-right {
+    display: flex;
+    flex-direction: column;
+    a {
+      margin-bottom: 10px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  &__contacts {
+    text-align: right;
+  }
+  &__contacts-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  &__icons {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    a {
+      margin-right: 10px;
+    }
+    a + :last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #656566;
+  }
+
+  &__regulations {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    width: 240px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #e4e5ea;
+  }
+}
