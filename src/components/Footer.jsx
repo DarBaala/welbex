@@ -45,12 +45,16 @@ const Footer = () => {
                 <img src="img/whatsapp-icon.svg" alt="Icon: WhatsApp" />
               </a>
             </div>
-            <a href="/">Москва, Путевой проезд 3с1, к 902</a>
+            <a href="http://maps.google.com/?q=Москва, Путевой проезд 3с1, к 902">
+              Москва, Путевой проезд 3с1, к 902
+            </a>
           </div>
         </div>
       </div>
       <p className="footer__regulations">
-        ©WELBEX 2022. Все права защищены. <ins>Политика конфиденциальности</ins>
+        ©WELBEX 2022. Все права защищены.
+        <br />
+        <a href="/">Политика конфиденциальности</a>
       </p>
     </footer>
   );
