@@ -7,6 +7,7 @@
   }
   &__company {
     text-align: left;
+    margin-right: 98px;
   }
   &__company-items {
     display: flex;
@@ -26,6 +27,7 @@
   }
   &__menu {
     text-align: left;
+    flex: 1;
   }
   &__menu-wrapper {
     display: flex;
@@ -84,7 +86,7 @@
     margin-bottom: 20px;
     margin-top: 20px;
     a {
-      margin-right: 10px;
+      margin-right: 14px;
     }
     a + :last-child {
       margin-right: 0;
@@ -112,11 +114,12 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 15px;
+    line-height: 19px;
     text-align: right;
     color: #e4e5ea;
     a {
       text-decoration-line: underline;
+      letter-spacing: 0.5px;
     }
   }
 }

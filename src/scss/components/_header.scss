@@ -7,6 +7,7 @@
   &__logo {
     width: 140px;
     height: 24px;
+    margin-right: 54px;
   }
   &__description {
     left: 0;
@@ -24,6 +25,7 @@
   &__navbar {
     position: relative;
     display: flex;
+    flex: 1;
     align-items: center;
     font-family: "Inter";
     font-style: normal;
@@ -50,7 +52,7 @@
       &:last-child {
         margin-right: 0;
       }
-      margin-right: 30px;
+      margin-right: 35px;
       font-family: "Inter";
       font-style: normal;
       font-weight: 500;
@@ -62,15 +64,15 @@
   &__purple-ball {
     z-index: 2;
     position: absolute;
-    top: -70px;
-    right: -100px;
+    top: -73px;
+    right: 31px;
     backdrop-filter: blur(2px);
   }
   &__red-ball {
     z-index: 2;
     position: absolute;
-    left: 155px;
-    top: 10px;
+    left: 161px;
+    top: 11px;
     backdrop-filter: blur(2px);
   }
   &__purple-light {
