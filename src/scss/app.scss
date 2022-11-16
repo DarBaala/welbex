@@ -10,4 +10,13 @@ body {
 .container {
   max-width: 1140px;
   margin: auto;
+  @media (max-width: 1280px) {
+    max-width: 940px;
+  }
+  @media (max-width: 1024px) {
+    max-width: 720px;
+  }
+  @media (max-width: 768px) {
+    max-width: 290px;
+  }
 }
