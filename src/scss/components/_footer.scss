@@ -39,6 +39,12 @@
       &:last-child {
         margin-bottom: 0;
       }
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #e4e5ea;
     }
   }
   &__menu-right {
@@ -49,6 +55,12 @@
       &:last-child {
         margin-bottom: 0;
       }
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #e4e5ea;
     }
   }
   &__contacts {
@@ -57,10 +69,20 @@
   &__contacts-wrapper {
     display: flex;
     flex-direction: column;
+    a {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+  &__contacts-phone {
+    font-weight: 500 !important;
   }
   &__icons {
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     a {
       margin-right: 10px;
     }

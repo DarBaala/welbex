@@ -33,7 +33,9 @@ const Footer = () => {
         <div className="footer__contacts">
           <p className="footer__title">Контакты</p>
           <div className="footer__contacts-wrapper">
-            <a href="tel:+75555555555">+7 555 555-55-55</a>
+            <a className="footer__contacts-phone" href="tel:+75555555555">
+              +7 555 555-55-55
+            </a>
             <div className="footer__icons">
               <a href="/">
                 <img src="img/telegram-icon.svg" alt="Icon: Telegram" />

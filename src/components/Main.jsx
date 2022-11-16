@@ -25,7 +25,7 @@ const Main = () => {
           </div>
           <div className="main__widgets">
             <h3>Skype Аудит</h3>
-            <p>отдела продажи CRM системы</p>
+            <p>отдела продаж и CRM системы</p>
           </div>
           <div className="main__widgets">
             <h3>35 дней</h3>
