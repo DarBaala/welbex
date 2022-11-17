@@ -35,7 +35,7 @@ const Footer = () => {
           <div className="footer__contacts">
             <p className="footer__title">Контакты</p>
             <div className="footer__contacts-wrapper">
-              <a className="footer__contacts-phone" href="tel:+75555555555">
+              <a className="footer__contacts-viber" href="tel:+75555555555">
                 +7 555 555-55-55
               </a>
               <div className="footer__icons">

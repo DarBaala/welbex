@@ -1,9 +1,6 @@
 .main {
   @media (max-width: 768px) {
     background: url("../../../public/img/bg.png") no-repeat;
-    -moz-background-size: 100%;
-    -webkit-background-size: 100%;
-    -o-background-size: 100%;
     background-size: 100%;
   }
   &__wrapper {
